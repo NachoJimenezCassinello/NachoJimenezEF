@@ -1,0 +1,28 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rcl.appuem.MainActivity">
+    <item
+        android:id="@+id/libro"
+        android:icon="@drawable/book"
+        android:title="@string/libro"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/alumni"
+        android:orderInCategory="100"
+        android:title="@string/alumni"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/perfil"
+        android:orderInCategory="100"
+        android:title="@string/perfil"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ordenador"
+        android:icon="@drawable/laptop"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="@string/ordenador"
+        />
+</menu>

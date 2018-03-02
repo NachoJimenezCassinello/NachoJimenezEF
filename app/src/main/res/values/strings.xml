@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NachoJimenezEF</string>
+    <string name="textoMain">Del 11 al 14 de diciembre, en el campus de Villaviciosa de Odon, participa en el Mercadillo Solidario de Libros organizado por la Biblioteca de CRAI Dulce Chacón</string>
+    <string name="tituloMain">The Library</string>
+    <string name="txtSplash">Splash It!</string>
+    <string name="perfil">Perfil</string>
+    <string name="alumni">Alumni</string>
+    <string name="libro">libro</string>
+    <string name="ordenador">ordenador</string>
+    <string name="yep">yep!</string>
+</resources>

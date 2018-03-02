@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.a21651702.nachojimenezef.SplashActivity">
+
+    <com.mikhaellopez.circularfillableloaders.CircularFillableLoaders
+        android:id="@+id/circularFillableLoaders"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/splash"
+        app:cfl_border="true"
+        app:cfl_border_width="5dp"
+        app:cfl_progress="80"
+        app:cfl_wave_amplitude="0.06"
+        app:cfl_wave_color="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtSplash"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="60dp"
+        android:textColor="@color/textPrimary"/>
+
+
+</LinearLayout>
